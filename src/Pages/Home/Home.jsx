@@ -1,11 +1,14 @@
+import About from "./About";
 import Banner from "./Banner";
+import Service from "./Service";
 
 
 const Home = () => {
     return (
         <div className="mt-8">
             <Banner></Banner>
-            <h1>This is Home Page!</h1>
+            <About></About>
+            <Service></Service>
         </div>
     );
 };
